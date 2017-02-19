@@ -11,7 +11,7 @@ public class Utils {
 			  throws IOException 
 			{
 			  
-			path = "/Users/qub216/workspaces/hackathon/GrantRankProject/WebContent/static/" + path;
+			path = "/Users/ericchiu/Workspace/hacking-chicago/workspace/grantrank/GrantRank/WebContent/static/" + path;
 			byte[] encoded = Files.readAllBytes(Paths.get(path));
 			  return new String(encoded, encoding);
 			}
