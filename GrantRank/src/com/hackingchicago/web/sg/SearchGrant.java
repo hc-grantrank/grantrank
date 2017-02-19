@@ -33,12 +33,12 @@ public class SearchGrant extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<body>");
-		out.println("<br><h3>Search Grant</h3>");
+		out.println("<br><h3>Are you a 501(c)(3) organization?</h3>");
 		out.println("<table><tr><td><form method=\"GET\" action=\"/GrantRank/orInfo\">");
-		out.println("<input type=\"submit\" value=\"Organization Info\">");
+		out.println("<input type=\"submit\" value=\"Yes, please upload doc\">");
 		out.println("</form>");
 		out.println("</td><td><form method=\"GET\" action=\"/GrantRank/searchGrant\">");
-		out.println("<input type=\"submit\" value=\"Search Grant\">");
+		out.println("<input type=\"submit\" value=\"No\">");
 		out.println("</form></td></tr></table>");		
 		out.println("<br><br>");
 		out.println("</body>");
