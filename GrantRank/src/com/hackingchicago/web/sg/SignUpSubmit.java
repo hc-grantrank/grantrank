@@ -1,4 +1,4 @@
-package com.hackingchicago.web;
+package com.hackingchicago.web.sg;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
